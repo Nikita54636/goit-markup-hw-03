@@ -114,6 +114,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
 }
 .our-skills {
   background-color: #2e2f42;
@@ -131,6 +135,10 @@ body {
   color: #ffffff;
   letter-spacing: 0.04em;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
 }
 
 .order-service:focus {
@@ -168,6 +176,7 @@ body {
 .our-team-container {
   width: 1158px;
   margin: 0 auto;
+  background: #f4f4fd;
 }
 
 .our-team-photo {
@@ -181,7 +190,6 @@ body {
 .name-photo {
   display: flex;
   align-items: center;
-  margin-left: 156px;
   gap: 24px;
 }
 
@@ -193,6 +201,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
+  height: 72px;
 }
 .name-section {
   font-family: "Roboto";
@@ -210,13 +220,23 @@ body {
 .footer {
   background-color: #2e2f42;
 }
+
+.container-footer {
+  display: flex;
+}
 .text-footer {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #e7e9fc;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 264px;
+  height: 72px;
+  left: 156px;
+  top: 2420px;
+  
 }
 .footer-logo-two {
   font-weight: 800;
