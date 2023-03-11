@@ -1,3 +1,21 @@
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.container-header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .list {
   list-style: none;
 }
@@ -35,7 +53,20 @@ body {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
+
+.menu-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+.contacts-list {
+  gap: 40px;
+}
+
 .navigation-item {
   font-family: "Roboto";
   font-style: normal;
@@ -52,6 +83,7 @@ body {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts-item {
   text-decoration: none;
@@ -62,6 +94,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   letter-spacing: 0.02em;
+}
+
+.contacts-list {
+  display: flex;
 }
 
 .contacts-item:hover,
@@ -101,7 +137,19 @@ body {
   color: #404bbf;
 }
 
-.goal {
+.container-goal {
+  width: 1158px;
+  margin: 0 auto;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.goal-item {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  gap: 24px;
 }
 
 .goal-name {
@@ -112,6 +160,29 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.container-name-section {
+  width: 1158px;
+  margin: 0 auto;
+}
+.our-team-container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.our-team-photo {
+  display: flex;
+  align-items: center;
+  padding-top: 72px;
+  padding-bottom: 120px;
+  gap: 24px;
+}
+
+.name-photo {
+  display: flex;
+  align-items: center;
+  margin-left: 156px;
+  gap: 24px;
 }
 
 .text {
@@ -133,6 +204,7 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  padding-top: 120px;
 }
 
 .footer {
