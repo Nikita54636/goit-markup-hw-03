@@ -40,7 +40,7 @@ address {
   padding-right: 15px;
   padding-left: 15px;
 }
-.section{
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -107,10 +107,16 @@ body {
   display: flex;
   gap: 40px;
   margin-left: 76px;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
 .contacts-list {
+  display: flex;
   gap: 40px;
+  margin-left: 76px;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
 .navigation-item {
@@ -126,7 +132,9 @@ body {
 .navigation-item:focus {
   color: #404bbf;
 }
-
+.border-name {
+  border: 1px solid #e7e9fc;
+}
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -140,6 +148,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   letter-spacing: 0.02em;
+  
 }
 
 .contacts-list {
@@ -214,7 +223,20 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
+.goal-name-our {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
 .container-name-section {
   width: 1158px;
   margin: 0 auto;
@@ -234,7 +256,7 @@ body {
 .our-team-photo {
   display: flex;
   align-items: center;
-  padding-top: 72px;
+  margin-top: 72px;
   gap: 24px;
 }
 
@@ -265,13 +287,13 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .footer {
   background-color: #2e2f42;
   padding-right: 15px;
   padding-left: 15px;
-  
 }
 
 .container-footer {
@@ -291,7 +313,6 @@ body {
   height: 72px;
   left: 156px;
   top: 2420px;
-  
 }
 .footer-logo-two {
   font-weight: 800;
@@ -304,6 +325,7 @@ body {
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   font-style: normal;
+  margin-bottom: 17.5px;
 }
 .footer-logo {
   font-weight: 800;

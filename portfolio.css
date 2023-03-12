@@ -66,6 +66,8 @@ address {
   display: flex;
   gap: 40px;
   margin-left: 76px;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 .secondary-logo {
   font-family: "Raleway";
@@ -79,6 +81,16 @@ address {
 .navigation-item:focus {
   color: #404bbf;
 }
+.navigation-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -97,6 +109,8 @@ address {
 .contacts-list {
   display: flex;
   gap: 40px;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 .contacts-item:hover,
 .contacts-item:focus {
@@ -173,18 +187,23 @@ body {
   height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  
 }
 
 
 .order-service:hover{
   background-color: #404BBF;
 }
+.order-service:focus{
+}
+
 
 
 .image-item {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 24px;
   margin-bottom: 120px;
 }
 
@@ -204,6 +223,7 @@ body {
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   font-style: normal;
+  margin-bottom: 17.5px;
 }
 .footer-logo {
   font-weight: 800;
