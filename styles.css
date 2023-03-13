@@ -40,6 +40,12 @@ address {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e7e9fc;
+}
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -47,7 +53,6 @@ address {
 
 .container-header {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -107,16 +112,12 @@ body {
   display: flex;
   gap: 40px;
   margin-left: 76px;
-  margin-top: 36px;
-  margin-bottom: 36px;
+
 }
 
 .contacts-list {
-  display: flex;
-  gap: 40px;
-  margin-left: 76px;
-  margin-top: 36px;
-  margin-bottom: 36px;
+    gap: 40px;
+   margin-left: auto;
 }
 
 .navigation-item {
@@ -168,10 +169,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
-  height: 120px;
   left: 472px;
   top: 260px;
+  margin-bottom: 48px;
+  border: none;
 }
 .our-skills {
   background-color: #2e2f42;
@@ -201,7 +202,6 @@ body {
 
 .container-goal {
   width: 1158px;
-  margin: 0 auto;
   margin: auto;
 }
 
@@ -214,9 +214,9 @@ body {
 
 
 .goal-name-our {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px; */
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -224,7 +224,7 @@ body {
   align-items: center;
   padding: 0px;
   gap: 8px;
-  margin-top: 32px;
+  /* margin-top: 32px; */
 }
 .goal-name {
 font-family: 'Roboto';
@@ -273,7 +273,6 @@ padding-top: 120px;
   letter-spacing: 0.02em;
   color: #434455;
   width: 264px;
-  height: 72px;
 }
 
 .text-our {
@@ -285,7 +284,6 @@ padding-top: 120px;
   letter-spacing: 0.02em;
   color: #434455;
   width: 264px;
-  height: 72px;
   text-align: center;
 }
 
@@ -358,4 +356,12 @@ ul {
 
 :root {
   --primary-brand: #4d5ae5;
+}
+
+.decorative-container {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
